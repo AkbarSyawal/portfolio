@@ -3,7 +3,7 @@ import laravel from 'laravel-vite-plugin';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-    base: '/portfolio/',
+    base: '/portfolio/', // WAJIB ADA agar path assets di GitHub Pages tidak 404
     plugins: [
         laravel({
             input: 'resources/js/app.jsx',
